@@ -1,0 +1,254 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <title>Akash Santhosh</title>
+
+    <!-- Fonts & CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="akash/css/font-awesome.min.css">
+    <link rel="stylesheet" href="akash/css/flaticon.css">
+    <link rel="stylesheet" href="akash/css/animate.css">
+    <link rel="stylesheet" href="akash/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="akash/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="akash/css/bootstrap.min.css">
+    <link rel="stylesheet" href="akash/css/bootsnav.css">
+    <link rel="stylesheet" href="akash/css/style.css">
+    <link rel="stylesheet" href="akash/css/responsive.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
+    <!-- Lightweight UI polish for Skills & Certifications -->
+    <style>
+      /* Section header accent (Debian gradient) */
+      .section-heading h2 {
+        font-weight: 700;
+        letter-spacing: .04em;
+        margin-bottom: 1.25rem;
+        background: linear-gradient(90deg, #D70A53 0%, #A80030 100%);
+        -webkit-background-clip: text; background-clip: text; color: transparent;
+      }
+      .muted-sub { color:#bdbdbd; font-size:.95rem; }
+
+      /* Skill pills */
+      .skill-pill {
+        display:inline-flex; align-items:center; gap:.5rem;
+        padding:.55rem .9rem; border-radius:999px;
+        border:1px solid rgba(255,255,255,.08);
+        background: rgba(255,255,255,.04);
+        color:#e6e6e6; font-weight:500; margin:.35rem;
+        transition:transform .15s ease, background .15s ease, border-color .15s ease;
+        white-space:nowrap;
+      }
+      .skill-pill i { opacity:.9; font-size:.95rem; }
+      .skill-pill:hover { transform:translateY(-2px); background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.16); }
+
+      /* Cards for certifications */
+      .cert-card {
+        border:1px solid rgba(255,255,255,.08);
+        border-radius:16px;
+        background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+        padding:1.25rem; height:100%;
+        transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+      }
+      .cert-card:hover { transform:translateY(-3px); border-color: rgba(255,255,255,.16); box-shadow:0 8px 24px rgba(0,0,0,.25); }
+      .cert-icon {
+        width:44px; height:44px; border-radius:999px;
+        display:inline-flex; align-items:center; justify-content:center;
+        background: rgba(215,10,83,.12);
+        color:#ff4d88; margin-right:.65rem;
+      }
+      .cert-title { color:#fff; font-weight:600; margin:0; }
+      .cert-meta { color:#bdbdbd; margin:0; font-size:.95rem; }
+
+      /* Tighter section spacing on mobile */
+      @media (max-width: 576px) {
+        .skill-pill { margin:.28rem; padding:.5rem .8rem; }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HERO -->
+    <section id="welcome-hero" class="welcome-hero">
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <div class="header-text">
+            <h2><span>Akash Santhosh</span></h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="row">
+            <div class="single-about-txt">
+              <h3>
+                I am a Debian Developer and MSc candidate in Computer Networks &amp; System Security.
+                I enjoy building reliable, efficient systems and contributing to open source.
+                Interests include Linux, networking, security, and cloud technologies. I’m also into
+                music and movies — especially rom-coms, sitcoms, and drama.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATUS -->
+    <section id="status" class="education">
+      <div class="section-heading text-center">
+        <h2>Status</h2>
+      </div>
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <embed src="https://spotifyme.vercel.app/api/spotify" style="width:500px; height:200px;" type="text/html">
+        </div>
+      </div>
+
+      <div class="section-heading text-center">
+        <h2>GitHub Contribution</h2>
+      </div>
+      <div class="container">
+        <p align="center">
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=akash-santhosh&theme=darcula&hide_border=true&background=00000000"
+            alt="GitHub contribution streak for akash-santhosh">
+        </p>
+        <p align="center">
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=akash-santhosh&show_icons=true&count_private=true&theme=darcula&hide_border=true&hide=issues,contribs&bg_color=00000000"
+            alt="GitHub stats for akash-santhosh">
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS (Redesigned) -->
+    <section id="skills" class="skills">
+      <div class="skill-content">
+        <div class="section-heading text-center">
+          <h2>skills</h2>
+          <p class="muted-sub">What I’m comfortable working with today</p>
+        </div>
+
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+              <!-- Primary skills -->
+              <div class="mb-4">
+                <span class="skill-pill"><i class="fa fa-linux"></i> Linux &amp; System Administration</span>
+                <span class="skill-pill"><i class="fa fa-plug"></i> Networking (routing, switching, VPN)</span>
+                <span class="skill-pill"><i class="fa fa-lock"></i> Security (hardening, access control, TLS)</span>
+                <span class="skill-pill"><i class="fa fa-cloud"></i> Cloud Fundamentals</span>
+                <span class="skill-pill"><i class="fa fa-cubes"></i> Containers &amp; Automation</span>
+                <span class="skill-pill"><i class="fa fa-wifi"></i> Radio &amp; Wireless</span>
+                <span class="skill-pill"><i class="fa fa-terminal"></i> Bash</span>
+                <span class="skill-pill"><i class="fa fa-code"></i> Git &amp; CI basics</span>
+                <span class="skill-pill"><i class="fa fa-shield"></i> Privacy basics</span>
+              </div>
+            </div>
+          </div><!-- /.row -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS (Redesigned) -->
+    <section id="certifications" class="education">
+      <div class="section-heading text-center">
+        <h2>certifications</h2>
+        <p class="muted-sub">Formal milestones I’ve completed or scheduled</p>
+      </div>
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="cert-card d-flex align-items-start">
+              <div class="cert-icon"><i class="fa fa-certificate" aria-hidden="true"></i></div>
+              <div>
+                <h4 class="cert-title">JNCIA</h4>
+                <p class="cert-meta">Status: Completed</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="cert-card d-flex align-items-start">
+              <div class="cert-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+              <div>
+                <h4 class="cert-title">CCNA</h4>
+                <p class="cert-meta">Status: Completed</p>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.row -->
+      </div>
+    </section>
+
+    <!-- PROFILES -->
+    <section id="profiles" class="experience">
+      <div class="profiles-details">
+        <div class="section-heading text-center">
+          <h2>profiles</h2>
+        </div>
+        <div class="container">
+          <div class="profiles-content">
+            <div class="row">
+              
+              <div class="col-sm-3">
+                <div class="single-profile profile-no-border">
+                  <div class="profile-txt">
+                    <a href="https://github.com/akash-santhosh">GitHub</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="single-profile profile-no-border">
+                  <div class="profile-txt">
+                    <a href="https://linkedin.com/in/akash-santhosh">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="single-profile profile-no-border">
+                  <div class="profile-txt">
+                    <a href="https://twitter.com/_akashsanthosh">Twitter</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div><!-- /.row -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer-copyright" class="footer-copyright">
+      <div class="container">
+        <div class="hm-footer-copyright">
+        </div>
+      </div>
+      <div id="scroll-Top">
+        <div class="return-to-top">
+          <i class="fa fa-angle-up" id="scroll-top" aria-hidden="true"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="akash/js/jquery.js"></script>
+    <script src="akash/js/custom.js"></script>
+    <script src="akash/js/bootsnav.js"></script>
+    <script src="akash/js/progressbar.js"></script>
+    <script src="akash/js/jquery.sticky.js"></script>
+    <script src="akash/js/jquery.appear.js"></script>
+    <script src="akash/js/bootstrap.min.js"></script>
+    <script src="akash/js/owl.carousel.min.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  </body>
+</html>
+
+
+
