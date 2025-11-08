@@ -330,7 +330,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #a71919;}
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
-.single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
+.single-horizontal-timeline p {color: #000;max-width: 335px;}
 
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
@@ -345,7 +345,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #a71919;}
 }
 span.single-timeline-horizontal {
     display:  inline-block;
-    background: #b2c1ce;
+    background: #000;
     height:  1px;
     width: 380px;
 }
@@ -523,7 +523,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid #b2c1ce;
+    border-right: 1px solid #000;
     overflow:hidden;
     -webkit-transition:background 0.5s linear; 
     -moz-transition:background 0.5s linear; 
